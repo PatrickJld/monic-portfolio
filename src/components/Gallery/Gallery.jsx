@@ -5,7 +5,7 @@ import './Gallery.css'
 
 export default function Gallery(){
     return(
-        <section>
+        <section id="Gallery">
             <Illustration />
             <CompGraph />
         </section>

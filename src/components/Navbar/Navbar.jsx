@@ -33,8 +33,9 @@ export default function Navbar(){
             <h1 href="#Home" id="logo" className="font-shippori text-3xl font-bold">Monic.</h1>
             <div id="navbar-right">
                 <a href="#Home" className="font-chivo text-xl">Home</a>
+                <a href="#about" className="font-chivo text-xl">About</a>
                 <a href="#Gallery" className="font-chivo text-xl">Gallery</a>
-                <a href="#Contact" className="font-chivo text-xl">Contact</a>
+                <a href="#contact" className="font-chivo text-xl">Contact</a>
             </div>
         </div>
     )
