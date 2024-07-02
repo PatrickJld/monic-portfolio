@@ -5,6 +5,8 @@ export default {
       fontFamily: {
         playwrite: ["Playwrite US Modern", "Sans Serif"],
         timesNewRoman: ["Times New Roman", "Sans Serif"],
+        shippori: ["Shippori Mincho", "Sans Serif"],
+        chivo: ["Chivo", "Sans Serif"],
       },
     },
   },

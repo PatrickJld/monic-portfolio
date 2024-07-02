@@ -1,0 +1,75 @@
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("./ABOUT.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 70px 0;
+    overflow: hidden;
+}
+
+.about-box{
+    background-color: white;
+    max-width: 75%;
+    margin-left: 175px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.about-box > h6{
+    color: #6d1333;
+    font-family: "Chivo", serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about-box > p{
+    padding: 50px;
+    line-height: 55px;
+}
+
+hr{
+    padding-bottom: 50px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+li{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-box{
+        max-width: 100%;
+    }
+    .about-box a{
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+    }
+    .reveal{
+        text-align: center;
+        font-size: 4rem;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-box a{
+        letter-spacing: 0;
+        font-size: 0.5rem;
+    }
+}

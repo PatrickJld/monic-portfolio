@@ -1,0 +1,26 @@
+.exp-card{
+    max-width: 75%;
+    align-items: center;
+    margin-left: 175px;
+}
+
+.exp-card > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exp-card > div > h2{
+    font-family: "Shippori Mincho", serif;
+    font-size: 2rem;
+
+}
+.exp-card > div > h6{
+    font-family: "Chivo", serif;
+    line-height: 60px;
+}
+
+.exp-card > p{
+    font-family: "Chivo", serif;
+    padding-bottom: 20px;
+}

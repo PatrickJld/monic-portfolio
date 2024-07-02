@@ -1,11 +1,13 @@
-import React from "react";
+import Illustration from "./Illustration.jsx";
+import CompGraph from "./CompGraph.jsx";
 
-function Gallery(){
+import './Gallery.css'
+
+export default function Gallery(){
     return(
-        <div className="app">
-            
-        </div>
+        <section>
+            <Illustration />
+            <CompGraph />
+        </section>
     )
 }
-
-export default Gallery;
