@@ -5,7 +5,7 @@ export default function About() {
         <section id="about">
             <div className="about-box">
                 <h6>About Myself</h6>
-                <p className="font-shippori text-3xl">
+                <p className="font-shippori">
                     Hello, my name is Monica Aprilia Budiarti. Most known as Monic. I'm an Illustration major student
                     with
                     over five years experience freelancer. I've successfully managed marketing in exhibition, usherette,
@@ -16,7 +16,7 @@ export default function About() {
                 <hr/>
 
                 <h6>Skills</h6>
-                <ul className="font-shippori text-2xl">
+                <ul className="font-shippori">
                     <li>Problem Solving</li>
                     <li>Teamwork</li>
                     <li>Critical Thinking</li>

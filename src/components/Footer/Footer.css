@@ -32,3 +32,38 @@
 .contact-info > div > i{
     line-height: 1px;
 }
+
+@media screen and (max-width: 768px) {
+    #contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 35px;
+    }
+    #contact > h1{
+        font-size: 3rem;
+        max-width: 400px;
+        margin: 0;
+    }
+    .contact-info{
+        margin-top: 0;
+    }
+    .contact-info > div{
+        display: flex;
+        font-size: 1rem;
+        font-family: "Chivo", serif;
+        padding-bottom: 20px;
+        margin-top: 5px;
+    }
+    .contact-info > div > p{
+        line-height: 1px;
+        margin-left: 10px;
+    }
+    .contact-info > div > i{
+        line-height: 1px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}

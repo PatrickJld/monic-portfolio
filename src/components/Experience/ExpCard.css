@@ -13,14 +13,62 @@
 .exp-card > div > h2{
     font-family: "Shippori Mincho", serif;
     font-size: 2rem;
-
 }
 .exp-card > div > h6{
     font-family: "Chivo", serif;
     line-height: 60px;
+    font-size: 0.9rem;
 }
 
 .exp-card > p{
     font-family: "Chivo", serif;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .exp-card{
+        max-width: 90%;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .exp-card > div > h2{
+        font-family: "Shippori Mincho", serif;
+        font-size: 1.5rem;
+    }
+
+    .exp-card > div > h6{
+        font-family: "Chivo", serif;
+        line-height: 35px;
+    }
+
+    .exp-card > p{
+        font-family: "Chivo", serif;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .exp-card{
+        max-width: 90%;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .exp-card > div > h2{
+        font-family: "Shippori Mincho", serif;
+        font-size: 1.5rem;
+    }
+
+    .exp-card > div > h6{
+        font-family: "Chivo", serif;
+        line-height: 35px;
+    }
+
+    .exp-card > p{
+        font-family: "Chivo", serif;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
 }
