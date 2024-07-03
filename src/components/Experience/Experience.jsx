@@ -3,7 +3,7 @@ import ExpCard from "./ExpCard.jsx";
 export default function Experience() {
     return(
         <section>
-            <h1 className="font-shippori text-7xl m-10 mb-24">Experience</h1>
+            <h1 className="font-shippori text-5xl m-10 mb-24">Experience</h1>
 
             <ExpCard
                 title="Targaryen Pictures"
